@@ -1,2 +1,14 @@
-# Prova-Web1
-Site criado para a prova de Web 1 com o professor Fernando
+# Prova WEB 1 - 2023
+#### PROJETO DESENVOLVIDO NA DICIPLINA DE DE WEB 1
+
+#### TECNOLOGIAS UTILIZADAS
+
+ 1. HTML
+ 2. CSS
+ 3. VsCode
+ 4. GitHub
+ 
+
+**By Nicole Inaê**
+
+> Written with [StackEdit](https://stackedit.io/).

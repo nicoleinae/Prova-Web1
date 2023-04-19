@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+header { 
+    max width: ;
+    height: 400px;
+    align-items: center;
+    background-color: rgb(1, 110, 50);
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+    color: black;
+}
+
+header nav ul {
+    display: flex;
+    color: black;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+header nav p {
+    font-weight: bold;
+}
+.bandeira {
+    width: 50px;
+}
+
+.header-content {
+    width: 400px;
+    height: 400px;
+    margin:10px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.informacoes .informacoes-titles {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 3rem;
+}
+
+.informacoes .informacoes-card {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.informacoes .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+.informacoes .card {
+    width: 250px;
+    height: 350px;
+    background: rgb(23, 12, 182);
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+
+}
+
+.informacoes .card-content {
+    padding: 0 10px;   
+}
+
+.informacoes .card-content ul {
+    padding: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.informacoes .card-content ul li {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: rgb(247, 245, 245);
+    font-weight: bold;
+}
+
+.informacoes .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.informacoes .card-content h1 {
+    font-size: 1.5rem;
+}
+.informacoes .card .card-tag-top p{
+    right: 0;
+    top: 15px;
+    background: rgb(231, 235, 15);
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.informacoes .card .card-tag p {
+    margin: 0;
+    font-size: 0,8rem;
+    color: rgb(8, 0, 0);
+    font-weight: bold;
+}
+
+.relato {
+    color: green;
+    justify-content: center;
+}
+.relato .relato-card {
+    align-content: center;
+    justify-content: center;
+}
+
+
+.contatos {
+    display: flex;
+    height: 150px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    align-items: center;
+}
+
+.contato .contatos-title {
+    text-align: center;
+    color: black;
+}
+
+.contato {
+    background-color:rgb(1, 110, 50);
+    padding: 15px;
+    margin: 25px 0 0;
+    text-align: center; 
+}
+    
+.contato .desenvolvido {
+    font-size: 15px;
+    color: gray;
+}
+
+.contatos .phone svg {
+    stroke: green;
+}
+.contatos .phone {
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 20px 0;
+    padding: 10px 8px 8px 8px;
+    font-size: 13px;
+    margin: 15px;
+}
+.contatos .phone:hover {
+    color: green;
+    transform: scale(1.1);
+}
+.contatos .mail svg {
+    stroke: red;
+}
+.contatos .facebook svg {
+    stroke: rgb(22, 22, 145);
+}
+
+.contatos .instagram svg {
+    stroke: rgb(194, 11, 41);
+}
+
+.contatos .twitter svg {
+    stroke: rgb(60, 131, 189);
+}
+
+.contatos .twitter {
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 20px 0;
+    padding: 10px 8px 8px 8px;
+    font-size: 13px;
+    margin: 15px;
+}
+.contatos .twitter:hover {
+    color: rgb(60, 131, 189);
+    transform: scale(1.1);
+}
+
+.contatos .instagram svg {
+    stroke: rgb(194, 11, 124);
+}
+.contatos .instagram {
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 20px 0;
+    padding: 10px 8px 8px 8px;
+    font-size: 13px;
+    margin: 15px;
+}
+.contatos .instagram:hover {
+    color: rgb(194, 11, 124);
+    transform: scale(1.1);
+}
+
+.contatos .facebook svg {
+    stroke: rgb(22, 22, 145);
+}
+.contatos .facebook {
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 20px 0;
+    padding: 10px 8px 8px 8px;
+    font-size: 13px;
+    margin: 13px;
+}
+.contatos .facebook:hover {
+    color: rgb(22, 22, 145);
+    transform: scale(1.1);
+}
+
+.contatos .mail svg {
+    stroke: red;
+}
+.contatos .mail {
+    width: auto;
+    height: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 20px 0;
+    padding: 10px 8px 8px 8px;
+    font-size: 13px;
+    margin: 15px;
+}
+.contatos .mail:hover {
+    color: red;
+    transform: scale(1.1);
+}
+
+.contatos .c-info {
+    margin: 5px 20px;
+    width: auto;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px 0;
+    padding: 0 15px;
+    }
